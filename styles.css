@@ -1,127 +1,305 @@
-            * {
-                box-sizing: border-box;
-                ;
-            }
-            
-            body {
-                font-family: monospace;
-                background-color: white;
-                max-width: 1440px;
-            }
-            
-            .main-cotent {
-                font-family: monospace;
-            }
-            
-            .header {
-                display: flex;
-                width: 100%;
-            }
-            
-            .nav {
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 40px 100px 0 150px;
-                height: 132px;
-            }
-            
-            .list {
-                font-size: 17px;
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-                width: 65%;
-                padding-left: 112px;
-            }
-            
-            .background-blue {
-                display: block;
-            }
-            
-            .cta {
-                font-size: 17px;
-                line-height: 19.55px;
-                border: 2px solid #717CFF;
-                border-radius: 11px;
-                padding: 10px 35px;
-            }
-            
-            .title {
-                font-size: 56px;
-                line-height: 64.39px;
-                margin: 0;
-            }
-            
-            .paragraph {
-                margin-top: 40px;
-                font-size: 22px;
-                line-height: 38px;
-                color: #7D7D7D;
-            }
-            
-            .span {
-                color: rgba(113, 124, 255, 1);
-            }
-            
-            .cta-2 {
-                font-size: 22px;
-                line-height: 40px;
-                border-radius: 11px;
-                background-color: #717CFF;
-                color: white;
-                border: 0;
-                padding: 12px 34px;
-                align-items: center;
-                display: flex;
-            }
-            
-            .arrow {
-                padding-left: 30px;
-            }
-            
-            .group-icon {
-                align-content: center;
-            }
-            
-            .box {
-                padding: 140px 134px 0px 150px;
-            }
-            
-            .d {
-                display: flex;
-            }
-            
-            .image-girl {
-                padding: 110px 60px 25px 0px;
-            }
-            
-            .group-icon {
-                display: flex;
-                justify-content: space-between;
-                padding: 50px 0px 30px 30px;
-                width: 25%;
-            }
-            
-            .background {
-                background-color: #FAFAFA;
-                height: 423px;
-                width: 100%;
-            }
-            
-            .title-2 {
-                padding-top: 30px;
-                display: flex;
-                justify-content: center;
-                opacity: 0.73;
-                font-size: 23px;
-                letter-spacing: 2.1 px;
-                margin: 0;
-            }
-            
-            .logos {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr;
-                padding: 85px 110px 0px 140px;
-            }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    max-width: 1440px;
+}
+
+.main-cotent {}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px 0 150px;
+    height: 132px;
+}
+
+.list {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 65%;
+    padding-left: 112px;
+}
+
+.background-blue {
+    display: block;
+}
+
+.cta {
+    font-size: 17px;
+    line-height: 19.55px;
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    padding: 10px 35px;
+}
+
+.title {
+    font-size: 56px;
+    line-height: 64.39px;
+    margin: 0;
+}
+
+.paragraph {
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+}
+
+.span {
+    color: rgba(113, 124, 255, 1);
+}
+
+.cta-2 {
+    font-size: 22px;
+    line-height: 40px;
+    border-radius: 11px;
+    background-color: #717CFF;
+    color: white;
+    border: 0;
+    padding: 12px 34px;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.arrow {
+    padding-left: 30px;
+}
+
+.group-icon {
+    align-content: center;
+}
+
+.box {
+    padding: 140px 134px 0px 150px;
+}
+
+.group-a {
+    display: flex;
+}
+
+.image-girl {
+    padding: 110px 60px 25px 0px;
+}
+
+.group-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 30px 30px;
+    width: 25%;
+}
+
+.background {
+    background-color: #FAFAFA;
+    height: 423px;
+    width: 100%;
+}
+
+.title-2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    opacity: 0.73;
+    font-size: 23px;
+    letter-spacing: 2.1px;
+    margin: 0;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 85px 110px 0px 140px;
+    width: 100%;
+}
+
+.image-border {
+    margin: 105px auto;
+    display: flex;
+}
+
+.box-1 {
+    padding: 100px 245px 0px 245px;
+}
+
+.title-small {
+    font-size: 37px;
+    line-height: 54px;
+    letter-spacing: 0.46px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-2 {
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 38px;
+    font-style: italic;
+    color: #7D7D7D;
+}
+
+.group-paragraph {
+    box-shadow: 1px 1px 52px 1px gainsboro;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 30px 15px 30px 30px;
+    width: 344px;
+}
+
+.title-small-2 {
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    margin-top: 30px;
+}
+
+.text {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+}
+
+.learn-arrow {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+
+.box-2 {
+    padding: 105px 165px 0px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+}
+
+.box-3 {
+    display: flex;
+    grid-column-gap: 39px;
+    padding: 50px 0px 0px 0px;
+    justify-content: center;
+}
+
+.group-paragraph-1 {
+    box-shadow: 1px 1px 52px 1px gainsboro;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 344px;
+    padding: 30px 15px 30px 30px;
+}
+
+.box-4 {
+    margin-top: 126px;
+    background-color: #FAFAFA;
+}
+
+.box-small {
+    padding: 100px 240px 0px 240px;
+}
+
+.word {
+    font-size: 37px;
+    line-height: 54px;
+    letter-spacing: -0.46px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-3 {
+    font-style: italic;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.group-images {
+    border: 0px solid;
+    width: 344px;
+    background: white;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 18.4px;
+    padding: 25px 0px 0px 25px;
+    color: rgba(86, 86, 86, 1);
+}
+
+.icon-date {
+    margin-right: 10px;
+}
+
+.paragraph-4 {
+    font-size: 22px;
+    line-height: 25.3px;
+    padding: 15px 0px 60px 25px;
+}
+
+.box-a {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 120px 150px 0px 170px;
+}
+
+.cta-3 {
+    font-size: 22px;
+    line-height: 40px;
+    border-radius: 11px;
+    background-color: #717CFF;
+    color: white;
+    border: 0;
+    padding: 12px 34px;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 125px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-2 {
+    padding-left: 30px;
+}
+
+.title-a {
+    font-size: 37px;
+    line-height: 54px;
+    letter-spacing: -0.46px;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-a {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.box-5 {
+    padding: 100px 240px 0 240px;
+}
