@@ -79,10 +79,10 @@ body {
 
 .span {
     color: rgba(113, 124, 255, 1);
-    animation: color 4s none 1s infinite;
+    animation: span 4s none 1s infinite;
 }
 
-@keyframes color {
+@keyframes span {
     0%,
     100% {
         color: deepskyblue;
@@ -186,21 +186,16 @@ body {
     animation-duration: 4s;
 }
 
-@keyframes loading {
-    0% 100% {
-        top: 22px;
-        background-color: rgba(113, 124, 255, 1);
-    }
-    50% {
-        background-color: rgba(124, 124, 124, 0.3188);
-    }
-}
-
 .loading-c {
     background-color: rgba(124, 124, 124, 0.3188);
     width: 14px;
     border-radius: 50%;
     height: 14px;
+}
+
+.icon-1:hover {
+    border: 0.5px inset black;
+    border-radius: 50%;
 }
 
 .box-1 {
@@ -322,6 +317,10 @@ body {
     background: white;
 }
 
+.group-images:hover {
+    box-shadow: 5px 5px 5px burlywood;
+}
+
 .date {
     display: flex;
     align-items: center;
@@ -422,9 +421,24 @@ body {
 .small-border {
     border-radius: 11px;
     background: #717dff60;
+    animation: color 5s none 1s infinite;
 }
 
-.small-border:hover {}
+@keyframes color {
+    0%,
+    100% {
+        background: #717dff60;
+    }
+    50% {
+        background: cornflowerblue;
+    }
+    50% {
+        background: rgb(237, 100, 214);
+    }
+    25% {
+        background: rgb(220, 20, 103);
+    }
+}
 
 .day-date {
     font-size: 27px;
