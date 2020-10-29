@@ -6,18 +6,14 @@
 
 body {
     font-family: Arial;
-    background-color: white;
+    background-color: #ffffff;
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.header {
+.content {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.width {
-    max-width: 1200px;
 }
 
 .title-logo:hover {
@@ -39,26 +35,27 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    width: 862px;
-    margin-left: 100px;
+    margin-left: 175px;
+    flex: 1;
+    font-style: italic;
+    color: #373737;
 }
 
 .item:hover {
     box-shadow: 0 2px 0px 0px blue;
-    color: black;
+    color: #373737;
     font-size: 20px;
 }
 
-.background-blue {
-    display: block;
-}
-
 .cta {
-    font-size: 17px;
-    line-height: 19.55px;
     border: 2px solid #717CFF;
     border-radius: 11px;
     padding: 10px 35px;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #505050;
 }
 
 .cta:hover {
@@ -71,13 +68,18 @@ body {
 }
 
 .title {
+    font-style: italic;
+    font-weight: normal;
     font-size: 56px;
-    line-height: 64.39px;
-    margin: 0;
+    line-height: 64px;
+    color: #2F2F2F;
+    margin-right: 50px;
 }
 
 .paragraph {
-    margin-top: 40px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: normal;
     font-size: 22px;
     line-height: 38px;
     color: #7D7D7D;
@@ -119,6 +121,7 @@ body {
     display: flex;
     margin-top: 25px;
     cursor: pointer;
+    font-style: italic;
 }
 
 .cta-2:hover {
@@ -137,29 +140,32 @@ body {
 }
 
 .image-girl {
-    margin: 0 0 25px 150px;
+    margin: 0 0 0 135px;
 }
 
 .group-icon {
+    align-items: center;
     display: flex;
-    padding: 50px 0px 0px 30px;
+    padding: 60px 0px 0px 15px;
     justify-content: end;
     grid-column-gap: 20px;
 }
 
-.Featured-Universities {
+.featured-universities {
     background-color: #FAFAFA;
     width: 100%;
 }
 
 .title-2 {
-    padding: 30px 0px 90px 0px;
     display: flex;
     justify-content: center;
     opacity: 0.73;
-    font-size: 23px;
     letter-spacing: 2.1px;
-    margin: 0;
+    font-style: italic;
+    font-size: 23px;
+    line-height: 26px;
+    text-align: center;
+    color: #373737;
 }
 
 .title-2:hover {
@@ -167,13 +173,15 @@ body {
 }
 
 .logos {
+    padding: 85px 0 105px 0;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
+    align-items: center;
 }
 
 .group-loading {
-    padding: 100px 0 80px 0;
+    align-items: center;
     display: flex;
     justify-content: center;
     grid-column-gap: 20px;
@@ -194,9 +202,9 @@ body {
 
 .loading-c {
     background-color: rgba(124, 124, 124, 0.3188);
-    width: 14px;
+    width: 10px;
     border-radius: 50%;
-    height: 14px;
+    height: 10px;
 }
 
 .icon-1:hover {
@@ -205,7 +213,7 @@ body {
 }
 
 .box-1 {
-    margin: 100px 0 100px 0;
+    margin: 0 0 100px 0;
 }
 
 .title-small {
@@ -222,11 +230,18 @@ body {
 
 .paragraph-2 {
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     line-height: 38px;
     font-style: italic;
     color: #7D7D7D;
+    width: 70%;
+    font-style: italic;
+}
+
+.paragraph-center {
+    display: flex;
+    justify-content: center;
 }
 
 .group-paragraph {
@@ -234,7 +249,7 @@ body {
     border: 5px solid white;
     border-radius: 10px;
     padding: 30px 15px 30px 30px;
-    width: 344px;
+    width: 340px;
 }
 
 .title-small-2 {
@@ -265,36 +280,19 @@ body {
     letter-spacing: 0.1px;
     font-weight: bold;
     color: #717CFF;
+    margin-top: 15px;
 }
 
 .box-2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 40px;
-}
-
-.Our-Services-2 {
     display: flex;
-    grid-column-gap: 39px;
-    padding: 50px 0px 0px 0px;
+    grid-gap: 45px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.group-paragraph-1 {
-    box-shadow: 1px 1px 52px 1px gainsboro;
-    border: 5px solid white;
-    border-radius: 10px;
-    width: 344px;
-    padding: 30px 15px 30px 30px;
-}
-
-.News {
-    margin-top: 126px;
+.news {
+    padding: 100px 0 125px 0;
     background-color: #FAFAFA;
-}
-
-.box-small {
-    padding: 100px 0px 120px 0;
 }
 
 .word {
@@ -313,19 +311,29 @@ body {
     font-size: 30px;
 }
 
+.our-services {
+    padding: 100px 0 125px 0;
+}
+
 .paragraph-3 {
     font-style: italic;
     margin-top: 25px;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 38px;
     text-align: center;
     color: #7D7D7D;
+    width: 70%;
+}
+
+.paragraph-center-2 {
+    display: flex;
+    justify-content: center;
 }
 
 .group-images {
     border: 0px solid;
-    width: 344px;
     background: white;
+    flex: 1;
 }
 
 .group-images:hover {
@@ -352,13 +360,18 @@ body {
 
 .paragraph-4 {
     font-size: 22px;
-    line-height: 25.3px;
+    line-height: 25px;
     padding: 15px 0px 60px 25px;
 }
 
 .box-a {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin: 120px 0 145px 0;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cta-3 {
@@ -371,8 +384,6 @@ body {
     padding: 12px 34px;
     align-items: center;
     display: flex;
-    margin-top: 145px;
-    margin-bottom: 125px;
 }
 
 .cta-3:hover {
@@ -384,8 +395,16 @@ body {
     justify-content: center;
 }
 
+.box-australia {
+    flex: 1;
+}
+
 .arrow-2 {
     padding-left: 30px;
+}
+
+.box {
+    padding: 30px 0 80px 0;
 }
 
 .title-a {
@@ -401,32 +420,35 @@ body {
 }
 
 .paragraph-a {
+    font-size: 22px;
     margin-top: 25px;
     line-height: 38px;
     text-align: center;
-    color: rgba(125, 125, 125, 1);
+    color: #7D7D7D;
+    width: 70%;
 }
 
-.Upcoming-University-Events {
-    padding: 100px 0 0 0;
+.paragraph-a-center {
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming-university-events {
+    padding: 100px 0 110px 0;
 }
 
 .border-1 {
     box-shadow: 1px 1px 52px 1px gainsboro;
     border-radius: 15px;
-    width: 540px;
     padding: 30px;
-    display: grid;
-    justify-self: end;
+    flex: 1;
 }
 
 .border-2 {
     box-shadow: 1px 1px 52px 1px gainsboro;
     border-radius: 15px;
-    width: 540px;
     padding: 30px;
-    display: grid;
-    justify-self: start;
+    flex: 1;
 }
 
 .group-6 {
@@ -476,9 +498,11 @@ body {
 .paragraph-b {
     font-size: 24px;
     line-height: 37px;
-    padding: 0 55px;
+    padding: 0 70px 0 20px;
     display: grid;
     justify-self: end;
+    color: #37474F;
+    font-weight: bold;
 }
 
 .text-a {
@@ -486,7 +510,10 @@ body {
     Line-Height: 28px;
     letter-spacing: 0.44px;
     color: rgba(55, 71, 79, 0.7216);
-    margin-top: 30px;
+    margin: 30px 0 15px 0;
+    font-style: italic;
+    letter-spacing: 0.44px;
+    color: 37474F;
 }
 
 .span-arrow {
@@ -496,7 +523,7 @@ body {
     line-height: 19.55px;
     letter-spacing: 0.44px;
     font-weight: bold;
-    margin-top: 15px;
+    align-items: center;
 }
 
 .group-date {
@@ -514,16 +541,16 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 50px;
-    margin-top: 100px;
+    margin: 100px 0 80px 0;
 }
 
-.Countries-We-Covered {
+.countries-we-covered {
     background-color: #FAFAFA;
+    padding: 80px 0 135px 0;
 }
 
 .box-6 {
     text-align: center;
-    padding: 80px 0 75px 0px;
 }
 
 .title-3 {
@@ -542,7 +569,13 @@ body {
     line-height: 38px;
     letter-spacing: -0.46px;
     font-style: italic;
-    color: rgba(125, 125, 125, 1);
+    color: #7D7D7D;
+    width: 70%;
+}
+
+.paragraph-5-center {
+    display: flex;
+    justify-content: center;
 }
 
 .loading-2 {
@@ -556,21 +589,25 @@ body {
     font-style: italic;
     font-size: 25px;
     line-height: 28.75px;
-    color: rgba(55, 71, 79, 1);
+    color: #37474F;
 }
 
 .paragraph-australia {
     font-style: italic;
     font-size: 16px;
     line-height: 28.75px;
-    color: rgba(55, 71, 79, 0.7216);
+    color: #37474F;
     margin-top: 10px;
     padding-right: 55px;
 }
 
 .contrys {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    margin: 75px 0 54px 0;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 45px;
 }
 
 .group-title-c {
@@ -578,7 +615,6 @@ body {
 }
 
 .title-4 {
-    margin-top: 115px;
     letter-spacing: -0.46px;
     font-size: 37px;
     line-height: 54px;
@@ -592,13 +628,23 @@ body {
     letter-spacing: -0.46px;
     font-size: 22px;
     line-height: 38px;
-    margin-top: 25px;
+    margin: 25px 0 140px 0;
     font-style: italic;
-    color: rgba(125, 125, 125, 1);
+    color: #7D7D7D;
+    width: 70%;
+}
+
+.testimonial {
+    padding: 115px 0 100px 0;
+}
+
+.paragraph-c-center {
+    display: flex;
+    justify-content: center;
 }
 
 .group-border {
-    width: 503px;
+    flex: 1;
     padding: 35px;
 }
 
@@ -631,7 +677,7 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 31px;
-    color: rgba(55, 71, 79, 0.7216)
+    color: #37474F
 }
 
 .group-writter-proffision {
@@ -639,13 +685,12 @@ body {
 }
 
 .group-veiws {
-    margin-top: 140px;
     display: flex;
     justify-content: center;
     grid-column-gap: 60px;
 }
 
-.Question {
+.question {
     max-width: 1440px;
     background-color: rgba(250, 250, 250, 1);
 }
@@ -667,13 +712,14 @@ body {
     font-weight: normal;
     font-size: 22px;
     line-height: 40px;
-    color: #FAFAFA;
-    background-color: rgba(113, 124, 255, 1);
+    color: #EEEEEE;
+    background-color: #717CFF;
     border-radius: 11px;
     align-items: center;
     display: flex;
     border: 0;
     padding: 12px 35px 12px 35px;
+    font-style: italic;
 }
 
 .cta-4:hover {
@@ -685,7 +731,7 @@ body {
 }
 
 .footer {
-    background: rgba(113, 124, 255, 1);
+    background: #717CFF;
 }
 
 .footer-2 {
@@ -693,7 +739,7 @@ body {
     display: flex;
     justify-content: center;
     grid-column-gap: 110px;
-    color: white;
+    color: #EEEEEE;
 }
 
 .paragraph-footer-1 {
